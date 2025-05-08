@@ -29,3 +29,13 @@ section#likes article {
     flex: 1;
     min-width: 20;
 }
+section.demo div{
+    display: flex;
+    gap: 1rem;
+    background-color: var(--pico-background-color);
+}
+section.demo div p {
+    font-size: 5rem;
+    background-color: var(--pico-primary);
+    padding: 1rem;
+}
