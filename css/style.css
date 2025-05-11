@@ -33,9 +33,36 @@ section.demo div{
     display: flex;
     gap: 1rem;
     background-color: var(--pico-background-color);
+    padding: 1rem;
+    border-radius: 1rem;
+    height: 15rem;
 }
 section.demo div p {
     font-size: 5rem;
     background-color: var(--pico-primary);
+    color: chartreuse;
     padding: 1rem;
+    border-radius: 0.5rem;
+    line-height: 1;
+    width: 1.2em;
+    margin: 0;
+    text-align: center;
+}
+section#task2 div{
+    justify-content: center;
+}
+section#task3 div{
+    justify-content: space-around;
+}
+section#task4 div{
+    justify-content: right;
+}
+section#task5 div{
+    flex-shrink: 3;
+}
+section#task5 div{
+    align-content: flex-end;
+}
+section#task5 div{
+    align-content: center;
 }
